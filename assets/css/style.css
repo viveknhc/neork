@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display&family=Poppins:ital,wght@0,300;0,400;1,300&display=swap');
+
+
+*{
+    font-family: 'Playfair Display'
+}
+
+.legalisation{
+    background-color: #F2F7FF;
+}
+
+
+
+.legalisation-card{
+    height: 253px;
+    background: #FCFCFC;
+    box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+
+}
+
+.sub-heading{
+    font-family: 'Poppins', sans-serif;
+    color: #8B8C8C;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.legalisation-icon{
+    width: 37px;
+    height: 37px;
+
+}
+
+.heading{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    color: #363940;
+}
+
+
+.count{
+    background-color: #094B72ed;
+    background-image: url("../image/pattern/Patterns.png");
+    color: #FFFFFF;
+}
+
+.counthead{
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.count-subhead{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.count-item{
+    border-right: 1px solid #FFFFFF;
+}
+.count-value{
+    
+    font-weight: 800;
+}
+.count-detail{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+.complex-subhead{
+    font-family: 'Poppins', sans-serif;
+    color: #4F4F4F;
+    line-height: 36px;
+}
+
+
+.call-btn{
+    background-color: #094B72ed;
+    color: #FFFFFF;
+    
+}
+.call-btn-text{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: #094B72;
+    /* padding-top: 121px;
+    padding-bottom: 102px; */
+}
+
+.footer-head{
+    font-family: 'Inter', sans-serif;
+    color: #F4F5F7;
+}
+
+.footer-link{
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: #EEEFF4;
+
+}
+
+.copyright{
+    background-color: #004D7B;
+}
+
+.copyright-text{
+    font-family: 'Inter', sans-serif;
+}
