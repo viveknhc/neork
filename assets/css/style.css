@@ -1,15 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display&family=Poppins:ital,wght@0,300;0,400;1,300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display&family=Plus+Jakarta+Sans&family=Poppins:ital,wght@0,300;0,400;1,300&display=swap');
 
 *{
     font-family: 'Playfair Display'
 }
 
+
+/* BANNER */
+
+.banner-right{
+    position: relative;
+}
+.person{
+    padding: 14px 110px 11px 110px;
+    position: absolute;
+    bottom: 90px;
+    left: 172px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.28);
+}
+.person-name{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #33475B;
+    font-weight: 700;
+    font-size: 24px;
+    
+}
+.person-designation{
+    color: #87898C;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
 .legalisation{
     background-color: #F2F7FF;
 }
+.banner-left{
+    position: relative;
 
+}
 
+.banner-box{
+    position: absolute;
+    top: 165px;
+    left: 149px;
+}
+.banner-head{
+    font-size: 4.5rem;
+    font-family: 'Playfair Display';
+    color: #094B72;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+.banner-subhead{
+    font-family: 'Plus Jakarta Sans';
+    color: #4F4F4F;
+    font-weight: 500;
+    font-size: 24px;
+}
+.get-start{
+    font-family: 'Plus Jakarta Sans';
+    color: #F9F8F9;
+    background-color: #094B72ed;
+}
+
+.brand-head{
+    font-family: 'Plus Jakarta Sans';
+    font-size: 20px;
+    color: #8B8C8C;
+    padding-top: 101px;
+}
+
+.brand-logo{
+    height: 32px !important;
+    width: 82px !important;
+}
 
 .legalisation-card{
     height: 253px;
@@ -118,4 +183,18 @@
 
 .copyright-text{
     font-family: 'Inter', sans-serif;
+}
+
+
+
+/* TESTIMONIAL */
+
+.owl-carousel .item {
+    margin: 3px;
+}
+
+.owl-carousel .item img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
