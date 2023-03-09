@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display&family=Poppins:ital,wght@0,300;0,400;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display&family=Plus+Jakarta+Sans&family=Poppins:ital,wght@0,300;0,400;1,300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Inter&family=Playfair+Display&family=Plus+Jakarta+Sans&family=Poppins:ital,wght@0,300;0,400;1,300&display=swap');
 *{
     font-family: 'Playfair Display'
 }
@@ -11,6 +11,12 @@
 /* NAV */
 .top-bar{
     background-color: #004D7B;
+}
+.top-phone{
+    font-family: 'Barlow', sans-serif;
+    color: #FFFFFF;
+    display: inline;
+
 }
 li{
     list-style: none;
